@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "description": "Api para coding mobile.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "thiagolipe.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "thiagolipe.github",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "games"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [
+    {
+      "name": "API_app",
+      "url": "apiapp",
+      "description": "API consulta"
+    }
+  ]
+}

@@ -22,6 +22,7 @@
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
   
+  <link rel="manifest" href="/manifest.json">
 </head>
 
 <body>
@@ -79,6 +80,16 @@
       });
 
     }
+
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(function () {
+        console.log('service worker registered');
+      })
+      .catch(function () {
+        console.warn('service worker failed');
+      });
+  }
   </script>
 
 </body>
